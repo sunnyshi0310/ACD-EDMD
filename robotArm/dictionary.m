@@ -15,7 +15,7 @@ if index_j == 2
     end    
     
 
-    if index_d == 6 % Hermite polynomial
+    if index_d == 2 % Hermite polynomial
         x1_2h = [1, x(1), 1*x(1)^2-1];
         x2_2h = [1, x(2), 1*x(2)^2-1];
         x3_3h = [1, x(3), 1*x(3)^2-1];
